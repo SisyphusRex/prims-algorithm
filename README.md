@@ -9,6 +9,7 @@ A weighted graph is a graph G=(V,E) along with a function w: E → ℝ where the
 ## Pseudocode
 G is an undirected, connected, weighted graph  
 T is a minimum spanning tree for G  
+inside/outside means the point is in the set or outside the set  
 
 T = ∅  
 Pick any vertex in G and add it to T  
