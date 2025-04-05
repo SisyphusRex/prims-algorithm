@@ -7,11 +7,11 @@ spanning tree of G.
 A weighted graph is a graph G=(V,E) along with a function w: E → ℝ where the function w assigns a real number to every edge.
 
 ## Pseudocode
-G is an undirected, connected, weighted graph
-T is a minimum spanning tree for G
+G is an undirected, connected, weighted graph  
+T is a minimum spanning tree for G  
 
-T = ∅
-Pick any vertex in G and add it to T
+T = ∅  
+Pick any vertex in G and add it to T  
 For j = 1 to n - 1
 * Let C be the set of edges with one endpoint inside T and one endpoint outside T
 * Let e be a minimum weight edge in C
